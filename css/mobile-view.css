@@ -1,0 +1,88 @@
+/* Media */
+@media(max-width: 900px) {
+    nav ul {
+        display: none;
+    }
+
+    #menu-icon {
+        display: flex;
+    }
+
+    #search-box {
+        display: none;
+    }
+
+    #slide-menu {
+        display: block;
+    }
+
+    #reviewpost {
+        width: 100%;
+        border-left: 0;
+    }
+
+    #sidebar {
+        display: none;
+    }
+}
+
+@media(max-width:639px) {
+    main {
+        width: 95%;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    .card,
+    .card .card-image img {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer #left-footer {
+        flex: 1;
+        border-right: 0;
+        border-left: 0;
+    }
+
+    footer #right-footer {
+        background: var(--white-pal);
+        color: black;
+    }
+
+    footer #right-footer a {
+        color: black;
+    }
+
+    .fab {
+        color: black;
+        transition: 0.4s;
+    }
+}
+
+@media(min-width:640px) {
+    main {
+        width: 95%;
+    }
+
+    .card {
+        width: 45%;
+    }
+
+    .card .card-image img {
+        width: 100%;
+        /* height: auto; */
+    }
+}
+
+@media(min-width: 1200px) {
+    main {
+        width: 85%;
+    }
+}

@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya|Lato|Roboto+Slab");
+
+:root {
+    --Lato: "Lato", sans-serif;
+    --Alegreya: "Alegreya", sans-serif;
+    --Roboto-slab: "Roboto Slab", sans-serif;
+    --light-black: hsla(0, 2%, 18%, 0.886);
+    --light-gray: rgba(255, 255, 255, 0.877);
+    --white-pal: #f5f5f5;
+    --green-pal: #30e3ca;
+    --blue-pal: #2f89fc;
+    --black-pal: #40514e;
+}
+
+/* Reviews page */
+.page-heading {
+    font-size: 32px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    transition: 0.4s;
+    display: inline-block;
+    padding: 4px 32px;
+    margin-top: 120px;
+}
+
+.page-heading:hover {
+    padding: 4px 48px;
+    background-color: var(--blue-pal);
+}
+
+.card-meta {
+    color: #333;
+    font-size: 14px;
+    /* padding-left: 8px; */
+    font-family: var(--Roboto-slab);
+}
+
+.pagination {
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pagination a {
+    border-top: 3px solid white;
+    display: inline-block;
+    padding: 8px 16px;
+    transition: 0.4s;
+}
+
+.pagination a:hover {
+    text-decoration: none;
+    border-top: 3px solid var(--blue-pal);
+}
